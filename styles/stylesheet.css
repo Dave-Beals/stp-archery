@@ -69,7 +69,7 @@ footer {
 
 .navigation-class li {
   display: inline-block;
-  margin: 0 10%;
+  margin: 0 7px;
 }
 
 nav a {
@@ -142,4 +142,56 @@ aside .container {
   font-size: 0.7rem;
   word-wrap: none;
   padding: 0;
+}
+
+.secondary-logo {
+  width: 10rem;
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+
+.about-title {
+  position: absolute;
+  left: 0;
+  padding: 2rem 1rem 2rem 2rem;
+  width: 80%;
+}
+
+.navigation-about {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  width: auto;
+  position: absolute;
+  top: auto;
+  bottom: 4rem;
+}
+
+.navigation-about li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.policy {
+  background-color: #787878;
+  background-image: linear-gradient(to right, #787878, white);
+  padding: 0.1rem 2rem 1rem 2rem;
+  margin: 3rem 0 1rem 0;
+}
+
+.policy-title {
+  color: white;
+}
+
+.about-stp {
+  padding: 0 2rem 0 2rem;
+}
+
+.about-stp h2 {
+  margin-bottom: 1.5rem;
+}
+
+#about-banner {
+  width: 100%;
 }
